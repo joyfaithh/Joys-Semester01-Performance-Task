@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bkvv3qcm8t58j"]
+
+[ext_resource type="Texture2D" uid="uid://clwpo83yorvtm" path="res://assets/enemy.png" id="1_tylqd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6yqfm"]
+size = Vector2(786, 1096)
+
+[node name="Sprite2D" type="Sprite2D"]
+texture = ExtResource("1_tylqd")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-10, 7)
+shape = SubResource("RectangleShape2D_6yqfm")
