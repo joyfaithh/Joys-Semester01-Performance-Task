@@ -5,7 +5,8 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lckat"]
 size = Vector2(786, 1072)
 
-[node name="Enemy" type="Area2D"]
+[node name="Enemy" type="RigidBody2D"]
+gravity_scale = 2.66454e-15
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(7, -2)
